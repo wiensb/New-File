@@ -1,4 +1,6 @@
-pi=3.14
-radius=float(input("enter the Radius "))
-c=2*pi*radius
-print("the circumference is", c)
+PI=3.14
+r=float(input("enter the Radius "))
+a=PI*r*r
+c=2*PI*r
+print("The area is", a)
+print("The circumference is", c)
