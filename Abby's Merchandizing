@@ -1,0 +1,10 @@
+print("welcome to Abby's Merchandizing")
+print(input("Please select 1 for polo or 2 for t-shirt "))
+
+1=("polo")
+2=("t-shirt")
+
+if 1:
+    print("You selected polo")
+elif 2:
+    print("You selected t-shirt")
