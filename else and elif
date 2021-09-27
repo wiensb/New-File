@@ -1,0 +1,17 @@
+x = 0
+x = int(input("Input an interger: "))
+
+if x < 0:
+    print ("The number you entered is a negative number")
+
+elif x == 0:
+    print ("The number you entered is a zero")
+
+elif x == 1:
+    print ("the number you entered is a one")
+
+elif x == 2:
+    print ("The number you have entered is a two")
+
+else:
+    print ("The number you entered is greater than two")

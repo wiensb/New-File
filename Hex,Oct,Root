@@ -1,3 +1,7 @@
-n=float(input("Enter a number "))
-print(hex(n))
-print(oct(n))
+int=float(input("Enter a number "))
+
+hex = 0x12
+oct = 0o100
+
+print(oct(int))
+print(hex(int))
