@@ -1,10 +1,12 @@
 print("welcome to Abby's Merchandizing")
 print(input("Please select 1 for polo or 2 for t-shirt "))
 
-1=("polo")
-2=("t-shirt")
 
-if 1:
-    print("You selected polo")
-elif 2:
-    print("You selected t-shirt")
+
+n1 = float(input("how many shirts would you like "))
+n2 = 9.99
+n3 = 0.13
+
+print("Your shirts cost ", n1*n2)
+print("Your taxes ", round(n1*n2*n3, 2))
+print("Your total ", round(n1*n2+n3, 2))
