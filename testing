@@ -1,4 +1,11 @@
-n1 = 3.123456
-n2 = round(n1, 2)
+choice = input("Please pick 1 for polo or 2 for t-shirt ")
+choice = int(choice)
 
-print("n2=", n2)
+
+if choice == 1:
+    print("polo")
+
+elif choice == 2:
+    print("t-shirt")
+
+
