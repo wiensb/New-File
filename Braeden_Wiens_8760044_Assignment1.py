@@ -35,3 +35,5 @@ print("Your total ", round(n1*n2+n4, 2))
 
 
 print("Thank you for your order")
+
+input("press ENTER to exit")
