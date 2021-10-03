@@ -8,3 +8,5 @@ for i in word:
     elif(i.isspace())==True:
         word1+=i
 print(word1)
+
+input("press Enter to exit")
