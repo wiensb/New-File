@@ -1,11 +1,4 @@
-choice = input("Please pick 1 for polo or 2 for t-shirt ")
-choice = int(choice)
-
-
-if choice == 1:
-    print("polo")
-
-elif choice == 2:
-    print("t-shirt")
-
+a = 0
+b = 0
+c = 0
 
