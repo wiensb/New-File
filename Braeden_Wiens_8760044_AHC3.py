@@ -7,3 +7,5 @@ while comp <= user:
     comp += 2
 
 print(output)
+
+print("press ENTER")
