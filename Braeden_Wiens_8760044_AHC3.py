@@ -8,4 +8,4 @@ while comp <= user:
 
 print(output)
 
-print("press ENTER")
+input("press ENTER")
