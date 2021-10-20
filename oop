@@ -1,0 +1,23 @@
+class Student:
+
+    school = "ACS/IT"
+
+    def __init__(self, name, studentID):
+        self.name = name
+        self.studentID = studentID
+
+        #alice = Student("Alice Mcbride", 1234567)
+        #bob = Student("Bob Mcenzie", 2345678)
+        #charanjeet = Student("Charanjeet Kaur", 3456789)
+
+    def description(self):
+        return f"{self.name} has a student ID of : {self.studentID}"
+
+    def grade(self,mark):
+        return f"{self.name} has a mark of {mark}"
+
+
+alice = Student("Alice Mcbride", 1234567)
+
+print(alice.studentID, alice.name)
+print(alice.grade(75))
