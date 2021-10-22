@@ -9,4 +9,4 @@ for i in word:
         word1+=i
 print(word1)
 
-input("press Enter to exit")
+input("ENTER")
