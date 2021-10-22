@@ -33,4 +33,6 @@ city1.calcAverageTemp()
 city2.calcAverageTemp()
 city3.calcAverageTemp()
 
+input("ENTER")
+
 
