@@ -1,4 +1,4 @@
-print ("Welcome to Abby's merchandizing.")
+print("Welcome to Abby's merchandizing.")
 print("Today we have an assortment of polos and t-shirts as well as jeans!")
 print("Our shirts cost 9.99 each and our jeans are 19.99 each.\n")
 
@@ -60,13 +60,13 @@ print("Before we move on to your total are you a student or senior citizen?")
 while True:
     answer = input("Please input student or senior if they apply to you otherwise input no: ")
     if answer == 'student':
-        print("The 15% student discount will be applied to your total.\n")
+        print("The 10% student discount will be applied to your total.\n")
         break
     elif answer == 'senior':
-        print("The 15% senior discount will be applied to you total.\n")
+        print("The 10% senior discount will be applied to you total.\n")
         break
     elif answer == 'no':
-        print("Don't worry we have a 10% quantity discount if you purchase more then 10 items!\n")
+        print("Don't worry we have a 15% quantity discount if you purchase more then 10 items!\n")
         break
 
 print("SUMMARY\n")
@@ -81,29 +81,30 @@ print(c6.rstrip('0').rstrip('.') + " light wash jeans.\nAt 19.99 each.\n")
 
 n1 = 9.99
 n2 = 19.99
-n4 = 0.10
-n5 = 0.15
-n6 = 0.13
+a1 = 29.98
+n3 = (((r+p+nb)*n1+(dw+mw+lw)*n2)/100*90)
+n4 = (((r+p+nb)*n1+(dw+mw+lw)*n2)/100*85)
 
 print("RECEIPT\n")
 
-print("shirts:", r+p+nb*n1)
-print("pants:", dw+mw+lw)
-print("clothing total:", r+p+nb*n1+dw+mw+lw*n2)
+print("shirts:", (r+p+nb)*n1)
+print("pants:", (dw+mw+lw)*n2)
+print("clothing total:", (r+p+nb)*n1+(dw+mw+lw)*n2)
 
 total = (r+p+nb+dw+mw+lw)
 
 while True:
     if answer == 'student':
-        print("with student discount", r+p+nb*n1+dw+mw+lw*n2*n5)
+        print("Your final total with student discount", (n3*100/88.5))
         break
     elif answer == 'senior':
-        print("with senior discount", r+p+nb*n1+dw+mw+lw*n2*n5)
+        print("Your final total with senior discount", (n3*100/88.5))
         break
     elif answer == 'no' and total >= 10:
-        print("Purchases of over 10 items", r+p+nb*n1+dw+mw+lw*n2*n4)
+        print("Your final total with purchases of over 10 items:", (n4*100/88.5))
         break
+    elif answer == 'no' and total <=10:
+        print("Your final total is:", ((r+p+nb)*n1+(dw+mw+lw)*n2)*100/88.5)
+        break 
 
-
-
-
+input("Press ENTER to confirm")
