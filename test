@@ -1,0 +1,6 @@
+r = float(input())
+p = float(input())
+nb = float(input())
+
+c1 = r+p+nb
+print(c1)
