@@ -14,7 +14,7 @@ class Temperatures:
     def calcAverageTemp(city):
         sumtemps = sum(city.temp)
         average = sumtemps/len(city.temp)
-        print("The average temperature for %s across these days was: "%str(city.name),str(average))
+        print("The average temperature for %s across these days was:"%str(city.name)," %.1f" % float(str(average)))
 
 city1 = Temperatures("Toronto")
 city1.enterTemp()
