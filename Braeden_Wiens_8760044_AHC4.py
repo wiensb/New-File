@@ -1,9 +1,3 @@
-# 1. ADD
-# 2. SUBTRACT
-# 3. MULTIPLY
-# 4. DIVIDE
-# 5. MODULUS DIVISION
-
 print("select an operation to preform:")
 print("1. for ADD")
 print("2. for SUBTRACT")
