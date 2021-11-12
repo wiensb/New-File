@@ -1,0 +1,22 @@
+class Account:
+    def__init__(self):
+    self.balance = 
+    print("WELCOME TO YOUR ACCOUNT.")
+    def deposit(self):
+        amount = int(input("ENTER THE AMOUNT YOU WOULD LIKE TO DEPOSIT: "))
+        self.balance += amount
+        print("YOUR NEW BALENCE =%d" %self.balance)
+    def withdraw(self):
+        amount=int(input("ENTER THE AMOUNT YOU WOULD LIKE TO WITHDRAW."))
+        if(amount>self.balance):
+            print("INSUFFICIENT BALANCE.")
+        else:
+            self.balance -= amount
+            print("YOUR REMAINING BALENCE =%d" %self.balance)
+    def balance(self):
+        print("YOUR BALANCE =%d" %self.balance)
+
+account= Account()
+account.deposit()
+account.withdraw()
+account.balance()
