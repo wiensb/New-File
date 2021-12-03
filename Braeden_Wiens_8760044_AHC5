@@ -1,0 +1,13 @@
+import re
+source = "Lorem ipsum doflor szit ametß, Braeden Wiens 8760044 consqecytetu$r adipibsching elit, sed do eiusmod tewmporα incid6kgidunt ut labq8ore et café dolore_magna aliqua. Purus!\n\r\x0b\x0c amet volutpat cons&jequat mau7ris. Penaxtibus et"
+r1 = len(re.findall("b", source))
+r2 = len(re.findall("\d{0,9}", source))
+r3 = len(re.findall("\w", source))
+r4 = len(re.findall("\W", source))
+r5 = len(re.findall("\s", source))
+
+print(r1)
+print(r2)
+print(r3)
+print(r4)
+print(r5)
