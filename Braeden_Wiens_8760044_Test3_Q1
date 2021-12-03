@@ -5,3 +5,5 @@ now = datetime.now()
 datestr = now.strftime("%d:%m:%Y %H:%M:%S")
 
 print("current date and time =", datestr)
+
+input("PRESS ENTER")
