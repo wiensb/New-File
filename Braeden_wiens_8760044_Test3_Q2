@@ -1,0 +1,21 @@
+class Rectangle():
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+def getPerimeter(self):
+    return 2 * (self.length + self.width)
+
+def getArea(self):
+    return self.length * self.width
+
+l=float(input("Enter the Length of the Rectangle: "))
+w=float(input("Enter the Width of the rectangle: "))
+
+object1 = Rectangle(l,w)
+
+perimeter = object1.getPerimeter()
+area = object1.getArea()
+
+print("Perimeter of Rectangle object = %.2f" %perimeter)
+print("Area of Rectangle abject = %.2f" %area)
